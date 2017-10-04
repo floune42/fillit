@@ -6,7 +6,7 @@
 /*   By: jemalhad <jemalhad@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/10/04 16:56:35 by jemalhad          #+#    #+#             */
-/*   Updated: 2017/10/04 17:00:48 by jemalhad         ###   ########.fr       */
+/*   Updated: 2017/10/04 17:14:49 by jemalhad         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -47,7 +47,7 @@ static void			ft_replace_coord(t_tetri *node)
 	while (tmp)
 	{
 		while (tmp->t[0].x != 0 && tmp->t[1].x != 0
-			&& tmp->t[2].x != 0 && tmp->t[3].x != 0)
+				&& tmp->t[2].x != 0 && tmp->t[3].x != 0)
 		{
 			tmp->t[0].x = tmp->t[0].x - 1;
 			tmp->t[1].x = tmp->t[1].x - 1;
@@ -55,7 +55,7 @@ static void			ft_replace_coord(t_tetri *node)
 			tmp->t[3].x = tmp->t[3].x - 1;
 		}
 		while (tmp->t[0].y != 0 && tmp->t[1].y != 0
-			&& tmp->t[2].y != 0 && tmp->t[3].y != 0)
+				&& tmp->t[2].y != 0 && tmp->t[3].y != 0)
 		{
 			tmp->t[0].y = tmp->t[0].y - 1;
 			tmp->t[1].y = tmp->t[1].y - 1;
@@ -87,7 +87,7 @@ static t_tetri		*ft_create_node(const char *s, int index, char c)
 {
 	t_tetri	*node;
 	int		a;
-	
+
 	a = index;
 	if ((node = (t_tetri *)ft_memalloc(sizeof(t_tetri))) == NULL)
 		return (NULL);

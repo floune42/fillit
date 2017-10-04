@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   fillit.h                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: showner <showner@student.42.fr>            +#+  +:+       +#+        */
+/*   By: jemalhad <jemalhad@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/09/13 17:37:48 by showner           #+#    #+#             */
-/*   Updated: 2017/10/04 15:11:31 by showner          ###   ########.fr       */
+/*   Updated: 2017/10/04 17:10:26 by jemalhad         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,8 +17,6 @@
 # include <stdlib.h>
 # include <unistd.h>
 # include <string.h>
-
-#include <stdio.h>
 
 # define TRUE 1
 # define FALSE 0
